@@ -1,5 +1,6 @@
-import { LitElement, html, customElement } from "lit-element";
-import styles from "./styles";
+import { LitElement, html } from "lit";
+import { customElement } from "lit/decorators.js";
+import styles from "./styles.js";
 import "../Counter";
 
 @customElement("my-app")
